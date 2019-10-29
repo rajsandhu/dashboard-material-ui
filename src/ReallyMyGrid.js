@@ -6,6 +6,11 @@ import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
+
+import SimpleCard from './MySimpleCard'
+import RecipeReviewCard from "./MyComplexCard";
+import Chart from "./MyChart.js";
+
 const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
@@ -34,12 +39,15 @@ export default function CenteredGrid() {
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
+                    <SimpleCard/>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
+                    <RecipeReviewCard/>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
+                    {/*<Chart />*/}
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
