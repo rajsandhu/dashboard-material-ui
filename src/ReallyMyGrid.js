@@ -69,16 +69,13 @@ export default function CenteredGrid() {
     return (
         <div className={classes.root}>
             <Grid container spacing={3}>
-                <Grid item xs={7}>
+{/*                <Grid item xs={12}>
                     <Paper className={classes.paper}>xs=12</Paper>
                 </Grid>
                 <Grid item xs={6}>
                     <Paper className={classes.paper}>xs=6</Paper>
-                </Grid>
-                <Grid item xs={6}>
-                    <Paper className={classes.paper}>xs=6</Paper>
-                    <CalendarCard/>
-                </Grid>
+                </Grid>*/}
+
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
                     <DBCard/>
@@ -86,6 +83,10 @@ export default function CenteredGrid() {
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
                     <ServerCard/>
+                </Grid>
+                <Grid item xs={3}>
+                    <Paper className={classes.paper}>xs=6</Paper>
+                    <CalendarCard/>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>

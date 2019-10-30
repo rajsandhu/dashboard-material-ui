@@ -47,10 +47,28 @@ export default function ServerCard() {
                     adjective
                 </Typography>*/}
                 <Typography variant="body2" component="p">
-                    green light for client A
+                    green light for server A
+                    <br/>
+
+                </Typography>
+
+                <Typography variant="body2" component="p">
+                    yellow light for server B
+                    <br/>
+
+                </Typography>
+
+                <Typography variant="body2" component="p">
+                    green light for server C
                     <br/>
                     {/*{'"a benevolent smile"'}*/}
                 </Typography>
+
+
+
+
+
+
             </CardContent>
             <CardActions>
                 <Button size="small">Learn More</Button>
