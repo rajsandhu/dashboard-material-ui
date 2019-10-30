@@ -10,6 +10,7 @@ import Grid from '@material-ui/core/Grid';
 import DBCard from './DBWidget.js'
 import CalendarCard from "./CalendarWidget.js";
 import ServerCard from "./ServerWidget";
+import SimpleCard from "./SimpleCard";
 import Chart from "./MyChart.js";
 
 
@@ -26,9 +27,6 @@ const useStyles = makeStyles(theme => ({
 
 
 // https://material-ui.com/components/grid/ autogrid
-
-
-
 /*export default function AutoGrid() {
     const classes = useStyles();
 
@@ -61,8 +59,6 @@ const useStyles = makeStyles(theme => ({
 }*/
 
 
-
-
 export default function CenteredGrid() {
     const classes = useStyles();
 
@@ -76,24 +72,25 @@ export default function CenteredGrid() {
                     <Paper className={classes.paper}>xs=6</Paper>
                 </Grid>*/}
 
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
+                <Grid item xl={3}>
+                    {/*<Paper className={classes.paper}>xl=3</Paper>*/}
                     <DBCard/>
                 </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
+                <Grid item xl={3}>
+                    {/*<Paper className={classes.paper}>xl=3</Paper>*/}
                     <ServerCard/>
                 </Grid>
-                <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=6</Paper>
+                <Grid item xl={3}>
+                    <Paper className={classes.paper}>CALENDAR</Paper>
                     <CalendarCard/>
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
+                    <Paper className={classes.paper}>xs=3 Paper Component</Paper>
                     {/*<Chart />*/}
                 </Grid>
                 <Grid item xs={3}>
-                    <Paper className={classes.paper}>xs=3</Paper>
+                    <Paper className={classes.paper}>xs=3 Paper Component</Paper>
+
                 </Grid>
             </Grid>
         </div>

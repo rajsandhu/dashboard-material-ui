@@ -41,11 +41,7 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-/*const GetCalendarData () => {
-    return {
-        startDate: "2019-11-03"
-        endDate: "2019-11-03"
-    };*/
+
 
 export default function CalendarCard() {
     const classes = useStyles();

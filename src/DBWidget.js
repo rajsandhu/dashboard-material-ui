@@ -48,7 +48,7 @@ export default function DBCard() {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button size="small">More Trains</Button>
             </CardActions>
         </Card>
     );

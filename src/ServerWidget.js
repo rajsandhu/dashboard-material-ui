@@ -39,7 +39,7 @@ export default function ServerCard() {
                 <Typography variant="h5" component="h2">
                     working
                     {bull}
-                    really
+                    mostly
                     {bull}
                     well
                 </Typography>
@@ -71,7 +71,7 @@ export default function ServerCard() {
 
             </CardContent>
             <CardActions>
-                <Button size="small">Learn More</Button>
+                <Button size="small">Detailed Info</Button>
             </CardActions>
         </Card>
     );
