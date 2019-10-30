@@ -33,22 +33,18 @@ export default function DBCard() {
         <Card className={classes.card}>
             <CardContent>
                 <Typography className={classes.title} color="textSecondary" gutterBottom>
-                    Word of the Day
+                    Deutsche Bahn
                 </Typography>
                 <Typography variant="h5" component="h2">
-                    be
-                    {bull}
-                    nev
-                    {bull}o{bull}
-                    lent
+                    RB62 nach Berlin
                 </Typography>
-                <Typography className={classes.pos} color="textSecondary">
+{/*                <Typography className={classes.pos} color="textSecondary">
                     adjective
-                </Typography>
+                </Typography>*/}
                 <Typography variant="body2" component="p">
-                    well meaning and kindly.
+                    1022 Uhr abfahrt
                     <br/>
-                    {'"a benevolent smile"'}
+                    {/*{'"a benevolent smile"'}*/}
                 </Typography>
             </CardContent>
             <CardActions>
