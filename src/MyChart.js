@@ -3,8 +3,16 @@
 import React from 'react';
 import { LineChart, Line, XAxis, YAxis, Label, ResponsiveContainer } from 'recharts';
 
-
+// title was breaking so I commented it out
 // import Title from './Title';
+
+/*const Title = () => {
+    return (
+        <div>
+            <p>Title</p>
+            </div>
+    )
+}*/
 
 // Generate Sales Data
 function createData(time, amount) {

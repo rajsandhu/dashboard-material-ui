@@ -7,9 +7,10 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 
 
-import SimpleCard from './MySimpleCard'
-import RecipeReviewCard from "./MyComplexCard";
+import DBCard from './DBWidget.js'
+import CalendarCard from "./CalendarWidget.js";
 import Chart from "./MyChart.js";
+
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -28,7 +29,7 @@ export default function CenteredGrid() {
     return (
         <div className={classes.root}>
             <Grid container spacing={3}>
-                <Grid item xs={12}>
+                <Grid item xs={7}>
                     <Paper className={classes.paper}>xs=12</Paper>
                 </Grid>
                 <Grid item xs={6}>
@@ -36,14 +37,15 @@ export default function CenteredGrid() {
                 </Grid>
                 <Grid item xs={6}>
                     <Paper className={classes.paper}>xs=6</Paper>
+                    <CalendarCard/>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
-                    <SimpleCard/>
+                    <DBCard/>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
-                    <RecipeReviewCard/>
+                    <CalendarCard/>
                 </Grid>
                 <Grid item xs={3}>
                     <Paper className={classes.paper}>xs=3</Paper>
