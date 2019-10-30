@@ -18,6 +18,10 @@ import ShareIcon from '@material-ui/icons/Share';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 
+import CalendarTodayIcon from '@material-ui/icons/CalendarToday';
+
+
+
 const useStyles = makeStyles(theme => ({
     card: {
         maxWidth: 345,
@@ -79,7 +83,7 @@ export default function CalendarCard() {
             </CardContent>
             <CardActions disableSpacing>
                 <IconButton aria-label="add to favorites">
-                    <FavoriteIcon />
+                    <CalendarTodayIcon />
                 </IconButton>
                 <IconButton aria-label="share">
                     <ShareIcon />
